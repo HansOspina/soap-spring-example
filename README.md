@@ -10,7 +10,7 @@ NOTE: the value for <package> comes from the pom config that goes like:
 <generatePackage>co.socobox.ws.codegen</generatePackage>
 ```
 
-2.Need to add the @XmlRootElement annotations to hint the ObjectFactory
+2. Need to add the @XmlRootElement annotations to hint the ObjectFactory
 
 ```java
 @XmlRootElement(name = "SayHelloResponse")
